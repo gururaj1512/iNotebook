@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +29,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.icons{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.icons:hover{
+  background-color: rgb(228, 234, 239);
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.card-body{
+  padding: 1rem 1rem 0 1rem;
+}
+
+.btns{
+  border-radius: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.tag{
+
+}
+
+.inner-tag{
+  border-radius: 8px;
+  padding: 3px;
+  background-color: rgb(206, 223, 255);
+}
+
+.inner-tag:hover{
+  background-color: rgb(165, 196, 255);
 }
