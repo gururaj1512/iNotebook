@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <NoteState>
         <Router>
           <Navbar showAlert={showAlert} />
@@ -38,7 +38,7 @@ function App() {
           </div>
         </Router>
       </NoteState>
-    </>
+    </div>
   );
 }
 

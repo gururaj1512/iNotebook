@@ -40,7 +40,7 @@ const Notes = (props) => {
     // }
 
     return (
-        <>
+        <div>
             {/* <AddNote showAlert={props.showAlert}/> */}
             <button ref={refUpdate} className="btn btn-primary d-none" type="button" data-bs-toggle="modal" data-bs-target="#updateModal">
                 Launch demo modal
@@ -91,7 +91,7 @@ const Notes = (props) => {
                     </div>
                 </button>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -23,7 +23,7 @@ const Navbar = (props) => {
         setNote({ ...note, [e.target.name]: e.target.value })
     }
     return (
-        <>
+        <div>
 
             <div className={`${location.pathname === "/login" || location.pathname === "/signup" ? "d-none" : "d-block"}`}>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -93,7 +93,7 @@ const Navbar = (props) => {
             </div>
 
 
-        </>
+        </div>
     )
 }
 
